@@ -1,0 +1,7 @@
+
+services:
+  apiexamen:
+    image: su_usuario_dockerhub/nombre_su_imagen
+    ports:
+      - 80:8000
+    restart: always
